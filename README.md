@@ -7,11 +7,11 @@ To accelerate the process of downloading bibtex files from official websites.
 ## Usage
 1. Download `extract_bib.py`.
 2. Modify the keywords and target websites.
-3. Run `python extract_bib.py`.
-4. You will get a `.bib` file in which papers' titles match at least one keyword.
+3. Run `python .\extract_bib.py --url https://openaccess.thecvf.com/CVPR2021?day=all --dst_file output.bib --keywords adversarial robust`.
+4. You will get a `.bib` file of papers whose titles contain at least one keyword.
 
 ## Known Issues
-1. The result is not very accurate. For example, `keyword=gan`, it returns `gan`, `gang`.
+1. ~~The result is not very accurate. For example, `keyword=gan`, it returns `gan`, `gang`.~~
 
 ## Current Applicable Conferences
 - ICCV
